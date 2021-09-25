@@ -1,0 +1,2 @@
+# Portrait-Live-Mode-With-Blurring
+The output of this project will be the frame with middle rectangle (in this rectangle area the capturing frames will appears) in the two sides right and left from this rectangle the frames will be blurred. So i used two masks first one is applied to the original frame ( mask1 &amp; original frame), and the second mask is applied to original frame after I made it blurred with "blur filter" (mask2 &amp; blurred frame), and at the end I did OR "|" logical operator to the output from first and second AND "&amp;" logical operator.
